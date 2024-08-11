@@ -9,7 +9,7 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
-/*==================== REMOVE MENU MOBILE ====================*/
+
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -19,7 +19,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () =>{
